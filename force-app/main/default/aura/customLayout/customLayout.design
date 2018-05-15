@@ -1,0 +1,9 @@
+<design:component label="Custom Page Template">
+	<flexipage:template >
+		<flexipage:region name="main" defaultWidth="LARGE">
+			<flexipage:formfactor type="MEDIUM" width="LARGE" />
+		</flexipage:region>
+        <flexipage:region name="rt_col" defaultWidth="SMALL">
+		</flexipage:region>
+	</flexipage:template>
+</design:component>

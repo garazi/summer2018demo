@@ -1,0 +1,46 @@
+<aura:component controller="DatatableDemoController" implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    <aura:import library="lightning:notificationsLibrary" property="notifications"/>
+    
+    <aura:attribute name="saveLocalStorage" type="Boolean" default="false"/>
+    <aura:attribute name="mydata" type="Object"/>
+    <aura:attribute name="mycolumns" type="List"/>
+    <aura:attribute name="errors" type="Object" default="[]"/>
+    <aura:attribute name="draftValues" type="Object" default="[]"/>
+    <aura:attribute name="atomicChanges" type="Object" default="[]"/>
+    <aura:attribute name="changeIndex" type="Integer" default="0"/>
+    <aura:attribute name="selectedRow" type="Id" />
+    <aura:attribute name="targetFields" type="Object" />
+    <aura:attribute name="showHide" type="Boolean" />
+    <aura:attribute name="autoSaveEnabled" type="Boolean" default="false"/>
+    <aura:attribute name="typeTest" type="String" default="text" />
+    
+    <aura:registerEvent name="recordChange" type="c:recordChange"/>
+     
+    <aura:handler event="c:recordChange" action="{!c.doInit}"/>
+    <aura:handler name="init" value="{! this }" action="{! c.doInit }"/>
+    
+    <force:recordData aura:id="recHandler"
+                      recordId="{!v.selectedRow}"
+                      targetFields="{!v.targetFields}"
+                      layoutType="FULL"
+                      mode="EDIT"/>
+    
+    <lightning:card iconName="standard:user" title="lighting:datatable with inline-edit in Summer'18">       	
+        <aura:set attribute="actions">
+            <lightning:button label="New" onclick="{!c.toggleColumn}" class="slds-m-bottom_medium" />
+        </aura:set>
+        
+        <lightning:datatable
+                             aura:id="table"
+                             errors="{! v.errors }"
+                             draftValues="{! v.draftValues }"
+                             data="{! v.mydata }" 
+                             columns="{! v.mycolumns }" 
+                             keyField="Id"
+                             onsave="{! c.handleSave }"
+                             oncellchange="{! c.handleEditCell }"
+                             oncancel="{! c.handleCancel }"
+                             onrowaction="{! c.handleRowAction }"
+                             />
+    </lightning:card>
+</aura:component>
