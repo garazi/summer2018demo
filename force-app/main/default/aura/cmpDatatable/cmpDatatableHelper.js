@@ -157,7 +157,13 @@
             cmp.set('v.autoSaveEnabled', false);
         }
     },
-                    
+    toggleCol : function (cmp,event,helper) {
+        var btn = cmp.find("newButton");
+        var tmp = btn.get("v.label") ;
+        ((tmp == "New") ? btn.set("v.label", "Close") : btn.set("v.label", "New"));
+		var event = $A.get("e.c:toggleColumn");
+		event.fire();
+    },                
 	deleteRec: function (cmp,event,helper) {
         console.log("fired");
         var tmp = cmp.find("recHandler");

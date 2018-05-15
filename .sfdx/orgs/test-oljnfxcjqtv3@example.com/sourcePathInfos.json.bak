@@ -94,10 +94,10 @@
         {
             "sourcePath": "/Users/grewis/Development/summerDemo/force-app/main/default/aura/cmpContact/cmpContact.cmp",
             "isDirectory": false,
-            "size": 2208,
-            "modifiedTime": 1526400575002,
-            "changeTime": 1526400575002,
-            "contentHash": "8bb0712a7b7ac5d18d36fb853a6a97106628c4f1",
+            "size": 1487,
+            "modifiedTime": 1526415115210,
+            "changeTime": 1526415115210,
+            "contentHash": "049aca13375d9785617322beb3e02b4f0c933222",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -167,10 +167,10 @@
         {
             "sourcePath": "/Users/grewis/Development/summerDemo/force-app/main/default/aura/cmpContact/cmpContactController.js",
             "isDirectory": false,
-            "size": 950,
-            "modifiedTime": 1526402559576,
-            "changeTime": 1526400580496,
-            "contentHash": "386b8096a4c51676d04f64b617e4d5731c9bf92e",
+            "size": 913,
+            "modifiedTime": 1526415188785,
+            "changeTime": 1526415188785,
+            "contentHash": "37860465c51f4d7f8b98eb7b04b15916fe5db9ec",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -241,10 +241,10 @@
         {
             "sourcePath": "/Users/grewis/Development/summerDemo/force-app/main/default/aura/cmpDatatable/cmpDatatable.cmp",
             "isDirectory": false,
-            "size": 2348,
-            "modifiedTime": 1526403646871,
-            "changeTime": 1526403646871,
-            "contentHash": "c2271f79266c4920f757249567395fea1cbffd59",
+            "size": 2364,
+            "modifiedTime": 1526406993976,
+            "changeTime": 1526406993976,
+            "contentHash": "452d538b9250960c788522ed760c5596a10f4ebf",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -316,26 +316,25 @@
             "sourcePath": "/Users/grewis/Development/summerDemo/force-app/main/default/aura/cmpDatatable/cmpDatatableController.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 2699,
-            "modifiedTime": 1526404035007,
-            "changeTime": 1526404035007,
+            "size": 2707,
+            "modifiedTime": 1526423236369,
+            "changeTime": 1526423236369,
             "isWorkspace": false,
-            "contentHash": "f2a661c9ac01dc91473b6b4c9e1c28f78da3109c"
+            "contentHash": "2bfde3c9de41c213f0c7c2724f827b041582cc2d"
         }
     ],
     [
         "/Users/grewis/Development/summerDemo/force-app/main/default/aura/cmpDatatable/cmpDatatableHelper.js",
         {
+            "state": "u",
             "sourcePath": "/Users/grewis/Development/summerDemo/force-app/main/default/aura/cmpDatatable/cmpDatatableHelper.js",
             "isDirectory": false,
-            "size": 5871,
-            "modifiedTime": 1526340779142,
-            "changeTime": 1526338875163,
-            "contentHash": "117f99f2cfefabef35c97a7bafa275e1281edc94",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 6141,
+            "modifiedTime": 1526423192112,
+            "changeTime": 1526423192112,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "519afb4a2d016fe5bd7780ea2b7a700cc8056b1f"
         }
     ],
     [
@@ -389,9 +388,9 @@
             "sourcePath": "/Users/grewis/Development/summerDemo/force-app/main/default/aura/customLayout/customLayout.cmp",
             "isDirectory": false,
             "size": 585,
-            "modifiedTime": 1526396121915,
-            "changeTime": 1526396121915,
-            "contentHash": "3a65fb4233c22360e2ecb0ab922b8a963819458b",
+            "modifiedTime": 1526421081594,
+            "changeTime": 1526421081594,
+            "contentHash": "9a5c201f965cd3f9930ab848db0318674131a0c9",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -463,9 +462,9 @@
             "sourcePath": "/Users/grewis/Development/summerDemo/force-app/main/default/aura/customLayout/customLayoutController.js",
             "isDirectory": false,
             "size": 340,
-            "modifiedTime": 1526340359949,
-            "changeTime": 1526340359949,
-            "contentHash": "71576208cdf30084e68a4a58b8ecd8b47d18ab07",
+            "modifiedTime": 1526421087609,
+            "changeTime": 1526421087609,
+            "contentHash": "c0d59b9a491a75788b9655d741bfb45cf808699e",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false

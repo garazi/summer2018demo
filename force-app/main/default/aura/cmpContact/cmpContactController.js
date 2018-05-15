@@ -21,7 +21,6 @@
     },
     prefillForm : function(component,event,helper){
         var tmpId = event.getParam("message");
-        console.log("here: ", tmpId)
         var form = component.find('recordViewForm');
         form.set('v.recordId', tmpId);
     }
