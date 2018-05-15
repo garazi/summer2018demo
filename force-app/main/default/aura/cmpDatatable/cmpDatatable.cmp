@@ -15,12 +15,11 @@
     <aura:attribute name="typeTest" type="String" default="text" />
     
     <aura:registerEvent name="recordChange" type="c:recordChange"/>
-     
+
     <aura:handler event="c:recordChange" action="{!c.doInit}"/>
     <aura:handler name="init" value="{! this }" action="{! c.doInit }"/>
     
     <force:recordData aura:id="recHandler"
-                      recordId="{!v.selectedRow}"
                       targetFields="{!v.targetFields}"
                       layoutType="FULL"
                       mode="EDIT"/>
