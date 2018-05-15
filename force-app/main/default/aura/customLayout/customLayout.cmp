@@ -1,0 +1,14 @@
+<aura:component implements="lightning:appHomeTemplate" description="A right column that shows and hides">
+	<aura:attribute name="main" type="Aura.Component[]" />
+	<aura:attribute name="rt_col" type="Aura.Component[]" />
+    <aura:handler event="c:toggleColumn" action="{!c.showColumn}" />
+    
+	<lightning:layout>
+		<lightning:layoutItem aura:id="mainCol" size="12" >
+			{!v.main}
+		</lightning:layoutItem>
+		<lightning:layoutItem aura:id="rtCol" size="3" class="slds-p-left_small slds-hide">
+                {!v.rt_col}
+		</lightning:layoutItem>
+	</lightning:layout>
+</aura:component>
