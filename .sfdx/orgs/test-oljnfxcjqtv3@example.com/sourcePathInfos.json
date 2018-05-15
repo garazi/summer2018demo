@@ -167,10 +167,10 @@
         {
             "sourcePath": "/Users/grewis/Development/summerDemo/force-app/main/default/aura/cmpContact/cmpContactController.js",
             "isDirectory": false,
-            "size": 913,
-            "modifiedTime": 1526415188785,
-            "changeTime": 1526415188785,
-            "contentHash": "37860465c51f4d7f8b98eb7b04b15916fe5db9ec",
+            "size": 409,
+            "modifiedTime": 1526423504336,
+            "changeTime": 1526423504336,
+            "contentHash": "bf0c3ebf481a537e05bb40539db01a9e93aa61aa",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -316,11 +316,11 @@
             "sourcePath": "/Users/grewis/Development/summerDemo/force-app/main/default/aura/cmpDatatable/cmpDatatableController.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 2716,
-            "modifiedTime": 1526423322683,
-            "changeTime": 1526423322683,
+            "size": 2547,
+            "modifiedTime": 1526423513136,
+            "changeTime": 1526423513136,
             "isWorkspace": false,
-            "contentHash": "72a2c881e9b15231725511a3a37c9e1e257ac10f"
+            "contentHash": "36315b159166d9b97965ee4d7f8ed9546e3dc060"
         }
     ],
     [
