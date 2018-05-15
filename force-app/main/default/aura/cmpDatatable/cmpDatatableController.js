@@ -76,9 +76,6 @@
 		}
 	},
 	toggleColumn: function(component, event, helper) {
-        // var btn = event.getSource();
-        // var tmp = btn.get("v.label") ;
-        // ((tmp == "New") ? btn.set("v.label", "Close") : btn.set("v.label", "New"));
         helper.toggleCol(component,event,helper);
 	}
 })
