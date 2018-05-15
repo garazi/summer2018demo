@@ -11,24 +11,9 @@
     <aura:registerEvent name="recordChange" type="c:recordChange"/>
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     <aura:handler event="c:recordChange" action="{!c.prefillForm}"/>
-	
-    <force:recordData aura:id="recordData"
-                      recordId="{!v.recordId}"
-                      targetFields="{!v.targetFields}"
-                      layoutType="FULL"
-                      />
-    <lightning:card iconName="custom:custom19" title="lightning:recordEditForm in Spring'18">
-        <div class="slds-p-left_large slds-p-right_medium">
-           
-            <!-- <lightning:recordEditForm aura:id="viewForm" 
-                                      recordId="{!v.recordId}" 
-                                      objectApiName="{!v.sObjectName}">
-                <lightning:inputField fieldName="Name" />
-                <lightning:inputField fieldName="Email" />
-                <lightning:inputField fieldName="Phone" />
-                <lightning:inputField fieldName="AccountId" />
-            </lightning:recordEditForm> -->
-            
+
+    <lightning:card iconName="custom:custom19" title="lightning:recordForm in Spring'18">
+        <div class="slds-p-left_large slds-p-right_medium">	
             
             <lightning:recordForm aura:id="recordViewForm" 
                                   recordId="{!v.recordId}" 

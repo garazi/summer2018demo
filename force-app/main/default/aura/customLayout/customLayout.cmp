@@ -7,7 +7,7 @@
 		<lightning:layoutItem aura:id="mainCol" size="12" >
 			{!v.main}
 		</lightning:layoutItem>
-		<lightning:layoutItem aura:id="rtCol" size="3" class="slds-p-left_small slds-hide">
+		<lightning:layoutItem aura:id="rtCol" size="4" class="slds-p-left_small slds-hide">
                 {!v.rt_col}
 		</lightning:layoutItem>
 	</lightning:layout>
