@@ -1,14 +1,3 @@
-# SFDX  App
+# summer2018demo
 
-## Dev, Build and Test
-
-
-## Resources
-
-
-## Description of Files and Directories
-
-
-## Issues
-
-
+This is a SFDX project to demo inline edit in lightning:datatable, lightning:recordForm and custom lightning layouts.
