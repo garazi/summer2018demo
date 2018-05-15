@@ -45,19 +45,18 @@
 		helper.handleEditCell(cmp, event);
 	},
 	handleCancel: function(cmp, event, helper) {
-		//var cancelConfirmation = confirm("Are you sure? you will lose your changes!");
-		//if (cancelConfirmation) {
 		helper.clearDraftValuesLS();
-		//} else {
-		//    event.preventDefault();
-		//}
 	},
 	handleRowAction: function(cmp, event, helper) {
 		var action = event.getParam('action');
 		var row = event.getParam('row');
 		cmp.set("v.selectedRow", row.Id);
 		switch (action.name) {
-			case 'edit':
+            case 'edit':
+                var btn = cmp.find("newButton").get("v.label");
+                if (btn == "New") {
+                    helper.toggleCol(cmp,event,helper);
+                }
 				var evt = $A.get("e.c:recordChange");
 				evt.setParams({
 					"message": row.Id
@@ -77,7 +76,9 @@
 		}
 	},
 	toggleColumn: function(component, event, helper) {
-		var event = $A.get("e.c:toggleColumn");
-		event.fire();
+        // var btn = event.getSource();
+        // var tmp = btn.get("v.label") ;
+        // ((tmp == "New") ? btn.set("v.label", "Close") : btn.set("v.label", "New"));
+        helper.toggleCol(component,event,helper);
 	}
 })

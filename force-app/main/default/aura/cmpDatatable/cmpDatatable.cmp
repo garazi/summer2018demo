@@ -24,9 +24,10 @@
                       layoutType="FULL"
                       mode="EDIT"/>
     
-    <lightning:card iconName="standard:user" title="lighting:datatable with inline-edit in Summer'18">       	
+    <lightning:card iconName="standard:user" title="lighting:datatable with inline-edit in Summer'18">   
+
         <aura:set attribute="actions">
-            <lightning:button label="New" onclick="{!c.toggleColumn}" class="slds-m-bottom_medium" />
+            <lightning:button aura:id="newButton" label="New" onclick="{!c.toggleColumn}" class="slds-m-bottom_medium" />
         </aura:set>
         
         <lightning:datatable
