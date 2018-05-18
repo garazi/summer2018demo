@@ -19,8 +19,8 @@
                                   recordId="{!v.recordId}" 
                                   objectApiName="{!v.sObjectName}"
                                   fields="{!v.fieldsArray}"
-								  columns="1"
-								  onsuccess="{!c.happyDance}"
+				  columns="1"
+				  onsuccess="{!c.happyDance}"
                                   />   
             
         </div>
