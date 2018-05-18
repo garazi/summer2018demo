@@ -12,7 +12,7 @@
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     <aura:handler event="c:recordChange" action="{!c.prefillForm}"/>
 
-    <lightning:card iconName="custom:custom19" title="lightning:recordForm in Spring'18">
+    <lightning:card iconName="custom:custom19" title="lightning:recordForm in Summer'18">
         <div class="slds-p-left_large slds-p-right_medium">	
             
             <lightning:recordForm aura:id="recordViewForm" 
