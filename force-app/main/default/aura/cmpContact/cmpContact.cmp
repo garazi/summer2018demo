@@ -9,7 +9,6 @@
 	<aura:attribute name="targetFields" type="Contact" />
 
     <aura:registerEvent name="recordChange" type="c:recordChange"/>
-    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     <aura:handler event="c:recordChange" action="{!c.prefillForm}"/>
 
     <lightning:card iconName="custom:custom19" title="lightning:recordForm in Spring'18">

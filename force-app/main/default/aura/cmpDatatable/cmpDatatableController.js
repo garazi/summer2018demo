@@ -13,14 +13,7 @@
 			{ label: 'Title', fieldName: 'Title', type: 'text', editable: true },
 			{ label: 'Phone', fieldName: 'Phone', type: 'phone', editable: true },
 			{ label: 'Email', fieldName: 'Email', type: 'email', editable: true },
-			{
-				label: 'Do Not Call',
-				fieldName: 'DoNotCall',
-				type: 'boolean',
-				editable: true,
-				cellAttributes: { alignment: 'center' },
-				initialWidth: 120
-			},
+			{ label: 'Do Not Call', fieldName: 'DoNotCall', type: 'boolean', editable: true, cellAttributes: { alignment: 'center' }, initialWidth: 120 },
 			{ type: 'action', typeAttributes: { rowActions: actions } }
         ]);
 		helper.getData(cmp);
